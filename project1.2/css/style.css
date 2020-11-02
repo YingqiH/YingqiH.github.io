@@ -1,0 +1,28 @@
+.bg1 {  
+ position: absolute;
+ top: 10px;
+ left: 50%; 
+ width: 50%; 
+ height: 100%;
+ background-image: url();
+ background-position: 0 0; 
+ background-repeat:no-repeat; 
+ background-size: cover;
+}
+
+h1 {
+position: absolute;
+width: 276px;
+height: 306px;
+left: 235px;
+top: 50px;
+
+font-family: Zhi Mang Xing;
+font-style: normal;
+font-weight: normal;
+font-size: 288px;
+line-height: 288px;
+
+color: #BAC7BA;
+
+}
