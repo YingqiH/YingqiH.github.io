@@ -1,11 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+/*botton*/
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 20px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {background: #eee;}
+
+.about {color: green;}
+
+/*text*/
+h2 {
+  font-family: Didot;
+  font-style: normal;
+  font-weight: bolder;
+  width: 276px;
+  height: 306px;  
+  left: 235px;
+  top: 226px;
+  font-size: 150px;
+  /*font-family: Didot;*/
+  color: #BAC7BA;
+}
+
+h3 {
+    direction:inherit;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: white;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: white;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 741px;
+  border-radius: 0%;
+}
+
+</style>
 </head>
 <body>
-    <h1>Hello</h1>
+
+<div class="split left">
+  <div class="centered">
+    <img src="images/tea.png" alt="tea title" width="25" height="100">
+    <h2>茶</h2>
+    <p>Some text.</p>
+    <button class="btn about">About</button>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <img src="images/image 1.png">
+    
+  </div>
+</div>
+     
 </body>
-</html>
+</html> 
