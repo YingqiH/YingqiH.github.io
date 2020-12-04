@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Menu</title>
-   
-   <!-- <style>
-
-    body {
+body {
     background-color: #F9EFEF;}  
 
     h1{
@@ -116,31 +104,3 @@
     transform: translate(-50%, -50%);
     text-align: center;
     }
-
-
-    </style> -->
-</head>
-<body>
-    <h1>Menu</h1>
-    <div class="sidenav">
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
-    </div>
-    <div class="bg"></div>
-
-    <div class="container">
-        <img src="images/file.jpg" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">
-              <h2>PDX ROSE</h2>
-              <p>Belgian White chocolate mousse filled with French Lychee puree and rose water made gelée and Japanese vanilla sponge cake</p>
-            </div>
-        </div>
-      </div>
-      
-      
-    
-</body>
-</html>
