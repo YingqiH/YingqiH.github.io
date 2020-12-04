@@ -1,0 +1,111 @@
+
+    body {
+    background-color: #F9EFEF;}  
+
+    h1{
+    position: absolute;
+    width: 10%;
+    height: 2%;
+    left: 50%;
+    top: 5%;
+
+    font-family: Great Vibes;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 45px;
+
+    color: #7E7A7A;
+    }
+
+    h2 {
+    width: 100%;
+    height: 5%;
+    color: #A47070;
+    font-size: 20px;
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    }
+
+    p{
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #7C6060;
+
+    }
+    .sidenav a {
+    padding: 15px 10px 10px 20px;
+    font-family: Merriweather Sans;
+    font-style:inherit;
+    text-decoration: none;
+    font-size: 15px;
+    color:#A38484;
+    display:block;
+    }
+    
+    .sidenav a:hover {
+    color:#655959;
+    }
+
+
+    @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 20%;}
+    .sidenav a {font-size: 15px;}
+    }
+
+    .container {
+    position: relative;
+    width: 20%;
+    left: 15%;
+    }
+
+    .gallery {
+        display: flex;
+        width:70%;
+        margin: auto;
+    }
+
+    .gallery-pic {
+        flex: 1;
+        margin: 20px;
+ }
+/* Text over an images */
+
+.gallery-pic {
+  position: relative;
+  width: 300px;
+  margin: auto;
+}
+.gallery-pic .image {
+  width: 300px;
+}
+
+.gallery-pic .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 300px;
+  transition: 0.5s ease;
+  background-color:#FDFBFB;
+    opacity: 0;
+}
+
+.gallery-pic:hover .overlay {
+  opacity: 0.7;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .gallery {
+    flex-direction: column;
+  }
+}
