@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact</h1>
+   
+    <div class="sidenav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="bg"></div>
+
+    <div class="container">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Your name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your email..">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Comment
+                </label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+      <div id="map"></div>
+</body>
+</html>
