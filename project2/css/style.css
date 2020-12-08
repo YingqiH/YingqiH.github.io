@@ -77,6 +77,18 @@
       color: #7C6060;
     }
     
+    h6 {
+      position: absolute;
+      left: 40%;
+      top: 5%;
+      font-family: Great Vibes;
+      font-style: normal;
+      font-weight: lighter;
+      font-size: 20px;
+      line-height: 100px;
+      color: #7E7A7A;
+    
+    }
     
 
     /*images*/
