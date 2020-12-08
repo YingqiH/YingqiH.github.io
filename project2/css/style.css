@@ -242,11 +242,11 @@
 
 @media only screen and (max-width: 600px) {
   .gallery {
-    padding: 20%;
+    padding: 30%;
     flex-direction: column;
   }
   .gallery-pic {
-    top: 15%;
+    top: 35%;
     position: relative;
     width: 200px;
     float: right ;
@@ -271,7 +271,7 @@
 
   .gallery-pic:hover .overlay {
     opacity: 0.8;
-    overflow: hidden;
+    overflow: visible;
   }
   
 }
