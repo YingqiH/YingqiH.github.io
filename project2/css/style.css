@@ -155,7 +155,10 @@
       .pill-nav a:hover {
         color: #A38484;
       }
-     
+      @media screen and (max-width: 600px) {
+        .pill-nav a {padding: 70% 10% 20% 5%;}
+        .pill-nav a:hover {font-size: 12px;}
+      }
     
   .sidenav {
     width: 130px;
@@ -242,11 +245,11 @@
 
 @media only screen and (max-width: 600px) {
   .gallery {
-    padding: 30%;
+    padding: 20%;
     flex-direction: column;
   }
   .gallery-pic {
-    top: 35%;
+    top: 40%;
     position: relative;
     width: 200px;
     float: right ;
@@ -264,7 +267,7 @@
     right: 0;
     width: 200px;
     height: 200px;
-    transition: 0.5s ease;
+   
     background-color:#FDFBFB;
     opacity: 0;
   }
