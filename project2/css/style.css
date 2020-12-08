@@ -152,7 +152,7 @@
     color:#655959;
     }
 
-    @media screen and (max-height: 450px) {
+    @media screen and (max-width: 600px) {
       .sidenav {padding-top: 15px;}
       .sidenav a {font-size: 12px;}
     }
@@ -213,8 +213,38 @@
 
 @media only screen and (max-width: 600px) {
   .gallery {
+    top: 90%;
     flex-direction: column;
   }
+  .gallery-pic {
+    top: 15%;
+    position: relative;
+    width: 300px;
+    float: right ;
+    margin: 25px;
+  }
+  
+  .gallery-pic .image {
+    width: 250px;
+  }
+  .gallery-pic .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 250px;
+    height: 250px;
+    transition: 0.5s ease;
+    background-color:#FDFBFB;
+    opacity: 0;
+  }
+
+  .gallery-pic:hover .overlay {
+    opacity: 0.8;
+    overflow: hidden;
+  }
+  
 }
 
 * {
