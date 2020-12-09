@@ -156,7 +156,9 @@
         color: #A38484;
       }
       @media screen and (max-width: 600px) {
-        .pill-nav a {padding: 400px 40px 3px 10px;}
+        .pill-nav a {
+          width: 15%;
+          padding: 400px 4px 5px 5px;}
         .pill-nav a:hover {font-size: 12px;}
       }
     
