@@ -157,7 +157,7 @@
       }
       @media screen and (max-width: 600px) {
         .pill-nav a {
-          padding: 80% 1% 1% 2%;}
+          padding: 80% 1% 1% 1%;}
         .pill-nav a:hover {font-size: 12px;}
       }
     
