@@ -261,6 +261,7 @@
     width: 200px;
   }
   .gallery-pic .overlay {
+    transition: 0.3s;
     position: absolute;
     top: 0;
     bottom: 0;
