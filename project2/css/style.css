@@ -277,11 +277,11 @@
     opacity: 0;
   }
 
-  .gallery-pic:hover .overlay {
+  /* .gallery-pic:hover .overlay {
     opacity: 0.8;
     overflow: visible;
   }
-  
+   */
 }
 
 * {
