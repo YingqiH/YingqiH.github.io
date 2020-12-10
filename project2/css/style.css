@@ -244,7 +244,7 @@
   .gallery-pic {
     top: 20%;
     position: relative;
-    width: 50px;
+    width: 100px;
     float: right ;
     margin: 25px;
   }
