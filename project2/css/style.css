@@ -192,15 +192,14 @@
       .sidenav {padding-top: 15px;}
       .sidenav a {font-size: 12px;}
     }
-
-   
     .container {
     position: relative;
     width: 20%;
     left: 15%;
     }
 
-    .gallery { 
+    .gallery {
+        
         display: flex ;
         width: 100%;
         margin: auto;
@@ -237,8 +236,7 @@
     overflow: hidden;
   }
 
-
-/* @media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 600px)  {
   .gallery {
     padding: 30%;
     flex-direction: column;
@@ -268,15 +266,13 @@
     opacity: 0;
   }
 
-  .gallery-pic:active .overlay{
+  .gallery-pic:hover .overlay, .gallery-pic:active {
     opacity: 0.8;
     overflow: visible;
 
   }
   
-} */
-
-
+}
 
 * {
   box-sizing: border-box;
