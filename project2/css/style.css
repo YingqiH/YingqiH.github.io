@@ -247,19 +247,13 @@
   overflow: hidden;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px)  {
   .gallery {
     padding: 30%;
     flex-direction: column;
   }
-  
-
-  }
-  
-
-@media(hover: none){
   .gallery-pic {
-    top: 15%;
+    top: 35%;
     position: relative;
     width: 200px;
     float: right ;
@@ -267,7 +261,7 @@
   }
   
   .gallery-pic .image {
-    width: 20px;
+    width: 200px;
   }
   .gallery-pic .overlay {
     transition: 0.3s;
@@ -287,9 +281,9 @@
     opacity: 0.8;
     overflow: visible;
 
-
+  }
+  
 }
-
 
 * {
   box-sizing: border-box;
@@ -369,4 +363,10 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+.map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
 }
