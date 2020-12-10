@@ -266,7 +266,7 @@
     opacity: 0;
   }
 
-  .gallery-pic:hover .overlay, .gallery-pic:active .overlay{
+  .gallery-pic:active .overlay{
     opacity: 0.8;
     overflow: visible;
 
